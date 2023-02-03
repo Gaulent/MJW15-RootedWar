@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f916d261-d0e4-4d9b-9491-0b4cb23c56c9" name="Changes" comment="Two Players Start">
+    <list default="true" id="f916d261-d0e4-4d9b-9491-0b4cb23c56c9" name="Changes" comment="Empezando a tirar proyectiles">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Untitled-Root-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Untitled-Root-Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GaulentDevScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GaulentDevScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Projectile.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +19,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scenes/GaulentDevScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scenes/SampleScene.unity.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
@@ -102,6 +100,14 @@
       <updated>1675449983030</updated>
       <workItem from="1675449986566" duration="749000" />
     </task>
+    <task id="LOCAL-00001" summary="Empezando a tirar proyectiles">
+      <created>1675463866557</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675463866557</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,5 +129,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Empezando a tirar proyectiles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Empezando a tirar proyectiles" />
   </component>
 </project>
