@@ -350,7 +350,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1453038100}
-  - component: {fileID: 1453038099}
+  - component: {fileID: 1453038101}
   m_Layer: 0
   m_Name: SpawnObjetoss
   m_TagString: Untagged
@@ -358,30 +358,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1453038099
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1453038098}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ddc45f341e8ebf84ca25d28b4837a19d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pullones:
-  - {fileID: 34056817}
-  timeSpawn: 1
-  repeatTimeSpawn: 3
-  esquina1: {fileID: 1534325420}
-  esquina2: {fileID: 1369810181}
-  esquina3: {fileID: 177262814}
-  esquina4: {fileID: 1664547578}
-  esquina5: {fileID: 633325287}
-  esquina6: {fileID: 805208578}
-  esquina7: {fileID: 1489383724}
-  esquina8: {fileID: 1857359712}
 --- !u!4 &1453038100
 Transform:
   m_ObjectHideFlags: 0
@@ -406,6 +382,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1453038101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453038098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddc45f341e8ebf84ca25d28b4837a19d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pullon: {fileID: 34056817}
+  timeSpawn: 1
+  repeatTimeSpawn: 3
+  esquina1: {fileID: 1534325420}
+  esquina2: {fileID: 1369810181}
+  esquina3: {fileID: 177262814}
+  esquina4: {fileID: 1664547578}
+  esquina5: {fileID: 633325287}
+  esquina6: {fileID: 805208578}
+  esquina7: {fileID: 1489383724}
+  esquina8: {fileID: 1857359712}
 --- !u!1 &1489383723
 GameObject:
   m_ObjectHideFlags: 0
