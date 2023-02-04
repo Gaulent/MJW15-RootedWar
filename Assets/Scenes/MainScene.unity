@@ -1066,7 +1066,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 8.23, y: 8.1}
+    oldSize: {x: 7.85, y: 8.1}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1116,8 +1116,8 @@ SpriteRenderer:
   m_SortingLayerID: -671284975
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 95ac07957329a74478fe5e529fb00a5a, type: 3}
-  m_Color: {r: 0.12380004, g: 1, b: 0, a: 0.47058824}
+  m_Sprite: {fileID: 21300000, guid: 08e5990415176584c88c9074e9d5f933, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7254902}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1495,6 +1495,7 @@ MonoBehaviour:
   field1GO: {fileID: 2096420031}
   field2GO: {fileID: 202184366}
   gameOverObject: {fileID: 151769379}
+  winnerText: {fileID: 2088976499}
 --- !u!1 &1190816603
 GameObject:
   m_ObjectHideFlags: 0
@@ -2114,8 +2115,8 @@ SpriteRenderer:
   m_SortingLayerID: -671284975
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6db1f6c1101d7e24cafb4efc8b0bae46, type: 3}
-  m_Color: {r: 0.12380004, g: 1, b: 0, a: 0.47058824}
+  m_Sprite: {fileID: 21300000, guid: 0bff3151906443e46bfacbfb2f5d9ea9, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7254902}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2290,7 +2291,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "CAMPEON \xA1JUGADOR 1!"
+  m_Text: "CAMPEON \xA1JUGADOR 2!"
 --- !u!222 &2088976500
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2457,6 +2458,22 @@ PrefabInstance:
     - target: {fileID: 7680969292182210728, guid: ccccd67f4e4fe7a448bd9cca6210be08, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680969292182210730, guid: ccccd67f4e4fe7a448bd9cca6210be08, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1038389077, guid: 508bf4b4e0492eb4bbbf9b652caf92e5, type: 3}
+    - target: {fileID: 7680969292182210730, guid: ccccd67f4e4fe7a448bd9cca6210be08, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680969292182210730, guid: ccccd67f4e4fe7a448bd9cca6210be08, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680969292182210730, guid: ccccd67f4e4fe7a448bd9cca6210be08, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7680969292182210730, guid: ccccd67f4e4fe7a448bd9cca6210be08, type: 3}
       propertyPath: m_SortingLayer

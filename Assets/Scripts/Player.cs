@@ -8,7 +8,7 @@ using Random = UnityEngine.Random;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] private ParticleSystem particulas;
+    //[SerializeField] private ParticleSystem particulas;
     public int playerNumber = 1;
     public float speed = 10f;
     private Rigidbody2D _myRB;

@@ -39,10 +39,17 @@ public class Projectile : MonoBehaviour
 
             _newPullon.GetComponent<Pullon>().SetDestiny(origin);
             _newPullon.GetComponent<Pullon>().SetOrigin(destiny);
-
+            //Invoke(nameof(delayedDeletion), 0.3f);
             Destroy(gameObject);
         }
     }
+
+    /*
+    void delayedDeletion()
+    {
+        Destroy(gameObject);
+    }
+    */
     
     public static Vector3 Parabola(Vector3 start, Vector3 end, float height, float t)
     {
