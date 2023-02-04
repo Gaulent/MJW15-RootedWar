@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,6 +12,11 @@ public class SceneLoader : MonoBehaviour
         
     }
 
+    private void Awake()
+    {
+        Time.timeScale = 1;
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -19,7 +25,6 @@ public class SceneLoader : MonoBehaviour
 
     public void LoadLevel()
     {
-        Debug.Log("test");
         SceneManager.LoadScene(1);
     }
 }

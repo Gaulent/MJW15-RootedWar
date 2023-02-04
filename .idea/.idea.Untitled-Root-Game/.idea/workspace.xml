@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f916d261-d0e4-4d9b-9491-0b4cb23c56c9" name="Changes" comment="Merge con Deb">
+    <list default="true" id="f916d261-d0e4-4d9b-9491-0b4cb23c56c9" name="Changes" comment="Antes de actualizar el suelo de plantas">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Untitled-Root-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Untitled-Root-Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartScreen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartScreen.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/granja_titulo copia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/granja_titulo copia.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/granja_titulo_pixel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/granja_titulo_pixel.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/titulo_juego copia.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/titulo_juego copia.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/titulo_juego_pixel.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/titulo_juego_pixel.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SceneLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +25,7 @@
     <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scenes/GaulentDevScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ExpandingArea.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scripts/Field.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Sprites/campofondo2_der hierba.png.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -213,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675526391476</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Antes de actualizar el suelo de plantas">
+      <created>1675529529524</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1675529529524</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +253,7 @@
     <MESSAGE value="Arreglado bug de la puntuacion" />
     <MESSAGE value="Añadiendo GameOver y Menu" />
     <MESSAGE value="Merge con Deb" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge con Deb" />
+    <MESSAGE value="Antes de actualizar el suelo de plantas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Antes de actualizar el suelo de plantas" />
   </component>
 </project>

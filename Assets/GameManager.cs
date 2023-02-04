@@ -47,6 +47,7 @@ public class GameManager : MonoBehaviour
 
     public void StartOver()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(0);
     }
 }
