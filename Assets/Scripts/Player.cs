@@ -27,7 +27,7 @@ public class Player : MonoBehaviour
         //InvokeRepeating(nameof(Throw),1f,2f);
 
     }
-
+     
 
     // Update is called once per frame
     void FixedUpdate()
@@ -37,13 +37,13 @@ public class Player : MonoBehaviour
         //float xMoveAmount = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
         //float yMoveAmount = Input.GetAxis("Vertical") * speed * Time.deltaTime;
         transform.position += new Vector3(xMoveAmount, yMoveAmount, 0);
-        particulas.Play();
     }
 
 
     // Update is called once per frame
     void Update()
     {
+        particulas.Play();
         if (Input.GetButtonDown("P" + playerNumber + "_Fire"))
         {
 
