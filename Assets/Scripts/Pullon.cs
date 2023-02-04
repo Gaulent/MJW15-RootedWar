@@ -14,7 +14,9 @@ public class Pullon : MonoBehaviour
 
     public GameObject pullon;
     public GameObject zonaCreciente;
-
+    public float x;
+    public float y;
+    public float z;
 
 
     public GameObject origin;
