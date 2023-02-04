@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f916d261-d0e4-4d9b-9491-0b4cb23c56c9" name="Changes" comment="After merge">
+    <list default="true" id="f916d261-d0e4-4d9b-9491-0b4cb23c56c9" name="Changes" comment="Imagenes">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Untitled-Root-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Untitled-Root-Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/campo_derpixelado.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/campo_derpixelado.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/campo_izqpixelado.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/campo_izqpixelado.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/campofondo2pixelado.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/campofondo2pixelado.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GaulentDevScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GaulentDevScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpawnObjetos.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpawnObjetos.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Pullon.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Pullon.prefab.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +24,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scenes/GaulentDevScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scenes/GaulentDevScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scenes/GaulentDevScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
@@ -121,7 +125,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675504735132</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Integracion Pullon">
+      <created>1675505926022</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675505926022</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Imagenes">
+      <created>1675505993219</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675505993219</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +164,8 @@
     <MESSAGE value="Empezando a tirar proyectiles" />
     <MESSAGE value="Lanzamiento de proyectil y sombra" />
     <MESSAGE value="After merge" />
-    <option name="LAST_COMMIT_MESSAGE" value="After merge" />
+    <MESSAGE value="Integracion Pullon" />
+    <MESSAGE value="Imagenes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Imagenes" />
   </component>
 </project>
