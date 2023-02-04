@@ -12,6 +12,7 @@ public class Field : MonoBehaviour
     public GameObject checkPointPrefab;
     private Collider2D _myCollider;
     private CircleCollider2D[] hijos;
+    public GameObject zonaCrecientePrefab;
     
     // Start is called before the first frame update
     void Start()
@@ -58,5 +59,10 @@ public class Field : MonoBehaviour
             }
         }
         
+    }
+    
+    public void SpawnAoE(Vector3 pos)
+    {
+        Instantiate(zonaCrecientePrefab, pos, quaternion.identity);
     }
 }

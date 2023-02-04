@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &9082535497614599045
+--- !u!1 &760766656277358740
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 9082535497614599043}
-  - component: {fileID: 9082535497614599044}
-  - component: {fileID: 9082535497614599042}
-  - component: {fileID: -1138398193870300413}
+  - component: {fileID: 760766656277358738}
+  - component: {fileID: 760766656277358741}
+  - component: {fileID: 760766656277358739}
   m_Layer: 3
-  m_Name: HondaCrecimiento
+  m_Name: P1_AoE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &9082535497614599043
+--- !u!4 &760766656277358738
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9082535497614599045}
+  m_GameObject: {fileID: 760766656277358740}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.11, y: 1.28, z: -1.7898}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalPosition: {x: -4.05, y: 1.55, z: -1.7898}
+  m_LocalScale: {x: 15.16446, y: 15.16446, z: 15.16446}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!331 &9082535497614599044
+--- !u!331 &760766656277358741
 SpriteMask:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9082535497614599045}
+  m_GameObject: {fileID: 760766656277358740}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -79,19 +78,19 @@ SpriteMask:
   m_MaskAlphaCutoff: 0.2
   m_FrontSortingLayerID: -671284975
   m_BackSortingLayerID: 0
-  m_FrontSortingLayer: 1
+  m_FrontSortingLayer: 3
   m_BackSortingLayer: 0
   m_FrontSortingOrder: 4
   m_BackSortingOrder: 2
   m_IsCustomRangeActive: 1
   m_SpriteSortPoint: 0
---- !u!58 &9082535497614599042
+--- !u!58 &760766656277358739
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9082535497614599045}
+  m_GameObject: {fileID: 760766656277358740}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -101,22 +100,3 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.10000002
---- !u!114 &-1138398193870300413
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9082535497614599045}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ae29707fb9318248a87da1d5dacce06, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  estado: 1
-  contadorPlantado: 30
-  pullon: {fileID: 1507930274618074489, guid: 2f196a8a22810ab44a1420028bc0385a, type: 3}
-  zonaCreciente: {fileID: 9082535497614599045}
-  x: 0
-  y: 0
-  z: 0

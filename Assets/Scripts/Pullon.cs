@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
-
+using Random = UnityEngine.Random;
 
 
 public class Pullon : MonoBehaviour
@@ -12,23 +13,29 @@ public class Pullon : MonoBehaviour
     noPlantado
     }
 
-    public GameObject pullon;
-    public GameObject zonaCreciente;
-    public float x;
-    public float y;
-    public float z;
-
-
     public GameObject origin;
     public GameObject destiny;
     public GameObject projectilePrefab;
+
 
     
     
     
     public EstadoPullon estado = EstadoPullon.noPlantado;
-    public float contadorPlantado = 30; 
+    public float contadorPlantado = 3f;
 
+    public int throwResistance = 3;
+
+
+    public void SetOrigin(GameObject go)
+    {
+        origin = go;
+    }
+    
+    public void SetDestiny(GameObject go)
+    {
+        destiny = go;
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -81,19 +88,16 @@ public class Pullon : MonoBehaviour
             contadorPlantado -= Time.deltaTime;
             if(contadorPlantado <= 0) {
                 estado = EstadoPullon.plantado;
+                origin.GetComponent<Field>().SpawnAoE(transform.position);
             }
         }
 
         else if(estado == EstadoPullon.plantado) {
-            GameObject ZonaCreciente = Instantiate(zonaCreciente, pullon.transform.position, gameObject.transform.rotation);
-            x += 0.1f*Time.deltaTime;
-            y += 0.1f*Time.deltaTime;
-            z += 0.1f*Time.deltaTime;
-            ZonaCreciente.transform.localScale = new Vector3(x, y, z);
+            
         }
 
     }
+
+
+
 }
-
-
-
