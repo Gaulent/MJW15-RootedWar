@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
@@ -11,6 +12,7 @@ public class GameManager : MonoBehaviour
     public GameObject field2GO;
     private Field field1;
     private Field field2;
+    public GameObject gameOverObject;
     
     
     // Start is called before the first frame update
@@ -24,7 +26,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         int score1 = field1.GetScore();
-        int score2 = field1.GetScore();
+        int score2 = field2.GetScore();
 
         if (score1 >= 100)
             WinnerPlayer(2);
@@ -38,5 +40,12 @@ public class GameManager : MonoBehaviour
     void WinnerPlayer(int winner)
     {
         Debug.Log("Winner Player " + winner);
+        gameOverObject.SetActive(true);
+            Time.timeScale = 0;
+    }
+
+    public void StartOver()
+    {
+        SceneManager.LoadScene(0);
     }
 }
