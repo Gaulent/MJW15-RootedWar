@@ -115,7 +115,7 @@ public class Player : MonoBehaviour
  
         // Add the GameObject collided with to the list.
         currentCollisions.Add (col.gameObject);
- 
+        
         // Print the entire list to the console.
         //foreach (GameObject gObject in currentCollisions) {
             //print (gObject.name);
