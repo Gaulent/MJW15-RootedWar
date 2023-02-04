@@ -40,7 +40,7 @@ public class Player : MonoBehaviour
     {
         float xMoveAmount = Input.GetAxis("P"+playerNumber + "_Horizontal") * speed * Time.deltaTime;
         float yMoveAmount = Input.GetAxis("P"+playerNumber + "_Vertical") * speed * Time.deltaTime;
-
+        //Debug.Log(xMoveAmount);
         if (xMoveAmount < 0)
             flipSprite = true;
         
