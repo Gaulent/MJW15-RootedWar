@@ -361,6 +361,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccccd67f4e4fe7a448bd9cca6210be08, type: 3}
+--- !u!1 &110324858 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7680969292182210728, guid: ccccd67f4e4fe7a448bd9cca6210be08, type: 3}
+  m_PrefabInstance: {fileID: 7680969293058946785}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &110324864
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110324858}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1f46b1a148695074490c9f6b3c265ff5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &137088016
 GameObject:
   m_ObjectHideFlags: 0
@@ -1811,6 +1836,31 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1508888081 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7680969292182210728, guid: ccccd67f4e4fe7a448bd9cca6210be08, type: 3}
+  m_PrefabInstance: {fileID: 108832000}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1508888087
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508888081}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1f46b1a148695074490c9f6b3c265ff5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1610485706
 GameObject:
   m_ObjectHideFlags: 0

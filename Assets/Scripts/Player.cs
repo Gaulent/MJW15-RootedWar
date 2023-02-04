@@ -16,12 +16,17 @@ public class Player : MonoBehaviour
     public GameObject projectilePrefab;
     public Collider2D _myCollider;
     List <GameObject> currentCollisions = new List <GameObject> ();
+    private bool flipSprite=false;
+    private SpriteRenderer _mySR;
+    private Animator _myAnimator;
     
     // Start is called before the first frame update
     void Start()
     {
         _myRB = GetComponent<Rigidbody2D>();
         _myCollider = GetComponent<Collider2D>();
+        _mySR = GetComponent<SpriteRenderer>();
+        _myAnimator = GetComponent<Animator>();
         //Debug.Log(otherField.bounds.extents.y);
 
         //InvokeRepeating(nameof(Throw),1f,2f);
@@ -34,6 +39,18 @@ public class Player : MonoBehaviour
     {
         float xMoveAmount = Input.GetAxis("P"+playerNumber + "_Horizontal") * speed * Time.deltaTime;
         float yMoveAmount = Input.GetAxis("P"+playerNumber + "_Vertical") * speed * Time.deltaTime;
+
+        if (xMoveAmount < 0)
+            flipSprite = true;
+        
+        if (xMoveAmount > 0)
+            flipSprite = false;
+        
+        if (Mathf.Abs(xMoveAmount) + Mathf.Abs(yMoveAmount) > 0)
+            _myAnimator.SetBool("walking", true);
+        else
+            _myAnimator.SetBool("walking", false);
+
         //float xMoveAmount = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
         //float yMoveAmount = Input.GetAxis("Vertical") * speed * Time.deltaTime;
         transform.position += new Vector3(xMoveAmount, yMoveAmount, 0);
@@ -43,7 +60,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        particulas.Play();
+        //particulas.Play();
         if (Input.GetButtonDown("P" + playerNumber + "_Fire"))
         {
 
@@ -60,6 +77,7 @@ public class Player : MonoBehaviour
             }
         }
 
+        _mySR.flipX = flipSprite;
     }
 /*
     private void OnTriggerStay2D(Collider2D other)
