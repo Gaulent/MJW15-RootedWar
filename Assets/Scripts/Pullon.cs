@@ -12,6 +12,11 @@ public class Pullon : MonoBehaviour
     noPlantado
     }
 
+    public GameObject pullon;
+    public GameObject zonaCreciente;
+
+
+
     public GameObject origin;
     public GameObject destiny;
     public GameObject projectilePrefab;
@@ -79,9 +84,9 @@ public class Pullon : MonoBehaviour
 
         else if(estado == EstadoPullon.plantado) {
             GameObject ZonaCreciente = Instantiate(zonaCreciente, pullon.transform.position, gameObject.transform.rotation);
-            x += 0.01f*Time.deltaTime;
-            y += 0.01f*Time.deltaTime;
-            z += 0.01f*Time.deltaTime;
+            x += 0.1f*Time.deltaTime;
+            y += 0.1f*Time.deltaTime;
+            z += 0.1f*Time.deltaTime;
             ZonaCreciente.transform.localScale = new Vector3(x, y, z);
         }
 
