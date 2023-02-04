@@ -13,6 +13,7 @@ public class Field : MonoBehaviour
     private Collider2D _myCollider;
     private CircleCollider2D[] hijos;
     public GameObject zonaCrecientePrefab;
+    public int playerNumber;
     
     // Start is called before the first frame update
     void Start()
@@ -41,8 +42,11 @@ public class Field : MonoBehaviour
 
         for (int i = 0; i < hijos.Length; i++)
         {
-            if(hijos[i].IsTouchingLayers(LayerMask.GetMask("Cover")))
+            if(playerNumber==1 && hijos[i].IsTouchingLayers(LayerMask.GetMask("Cover1")))
                 count++;
+            else if(playerNumber==2 && hijos[i].IsTouchingLayers(LayerMask.GetMask("Cover2")))
+                count++;
+            
         }
 
         return count;

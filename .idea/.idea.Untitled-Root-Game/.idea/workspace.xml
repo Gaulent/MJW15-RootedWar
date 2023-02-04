@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f916d261-d0e4-4d9b-9491-0b4cb23c56c9" name="Changes" comment="Listo las AoE">
+    <list default="true" id="f916d261-d0e4-4d9b-9491-0b4cb23c56c9" name="Changes" comment="Añadida Puntuacion. Toca arreglar el cruce de puntuaciones">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Untitled-Root-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Untitled-Root-Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/P2_AoE.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/P2_AoE.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GaulentDevScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GaulentDevScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Field.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Field.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +25,7 @@
     <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scenes/GaulentDevScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scenes/GaulentDevScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ExpandingArea.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scripts/Field.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -177,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675521644179</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Añadida Puntuacion. Toca arreglar el cruce de puntuaciones">
+      <created>1675523201925</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1675523201925</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +220,7 @@
     <MESSAGE value="Terminado lanzar y devolver pullones" />
     <MESSAGE value="Implementando AoE" />
     <MESSAGE value="Listo las AoE" />
-    <option name="LAST_COMMIT_MESSAGE" value="Listo las AoE" />
+    <MESSAGE value="Añadida Puntuacion. Toca arreglar el cruce de puntuaciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadida Puntuacion. Toca arreglar el cruce de puntuaciones" />
   </component>
 </project>
