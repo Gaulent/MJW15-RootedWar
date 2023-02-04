@@ -72,6 +72,7 @@ public class Player : MonoBehaviour
                     if (gObject.GetComponent<Pullon>().GetStatusThrowable())
                     {
                         gObject.GetComponent<Pullon>().TryThrow();
+                        _myAnimator.SetTrigger("throw");
                         break;
                     }
                 }
