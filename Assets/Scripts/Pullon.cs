@@ -10,16 +10,18 @@ public class Pullon : MonoBehaviour
     public enum EstadoPullon {
     plantado,
     noPlantado
-    } 
+    }
 
+    public GameObject origin;
+    public GameObject destiny;
+    public GameObject projectilePrefab;
+
+    
+    
+    
     public EstadoPullon estado = EstadoPullon.noPlantado;
     public float contadorPlantado = 30; 
 
-    public GameObject pullon; 
-    public GameObject zonaCreciente;
-    public float x;
-    public float y;
-    public float z;
 
     // Start is called before the first frame update
     void Start()
@@ -28,12 +30,48 @@ public class Pullon : MonoBehaviour
         
     }
 
+    public void TryThrow()
+    {
+        if (throwResistance > 0)
+            throwResistance--;
+        else
+        {
+            Throw();
+            Destroy(gameObject);
+        }
+
+    }
+    
+    
+    void Throw()
+    {
+        GameObject projectileGO = GameObject.Instantiate(projectilePrefab,transform.position, Quaternion.identity);
+        Projectile projectile = projectileGO.GetComponent<Projectile>();
+        projectile.SetOrigin(origin);
+        projectile.SetDestiny(destiny);
+        projectile.GoToPosition(GetRandomPointFromOtherField(0.9f));
+    }
+    
+    Vector3 GetRandomPointFromOtherField(float margin)
+    {
+        Bounds bounds = destiny.GetComponent<Collider2D>().bounds;
+        float offsetX = Random.Range(-bounds.extents.x, bounds.extents.x);
+        float offsetY = Random.Range(-bounds.extents.y, bounds.extents.y);
+        float offsetZ = Random.Range(-bounds.extents.z, bounds.extents.z);
+ 
+        
+        return bounds.center + new Vector3(offsetX, offsetY, offsetZ) * margin;
+    }
+
+    
+    
+
     // Update is called once per frame
     void Update()
     {
         
         if(estado == EstadoPullon.noPlantado) {
-            contadorPlantado -= 0.1f;
+            contadorPlantado -= Time.deltaTime;
             if(contadorPlantado <= 0) {
                 estado = EstadoPullon.plantado;
             }

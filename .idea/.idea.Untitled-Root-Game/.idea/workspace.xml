@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f916d261-d0e4-4d9b-9491-0b4cb23c56c9" name="Changes" comment="Imagenes">
+    <list default="true" id="f916d261-d0e4-4d9b-9491-0b4cb23c56c9" name="Changes" comment="Probando colisiones">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Untitled-Root-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Untitled-Root-Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/campo_derpixelado.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/campo_derpixelado.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/campo_izqpixelado.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/campo_izqpixelado.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/campofondo2pixelado.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/campofondo2pixelado.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectile.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GaulentDevScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GaulentDevScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pullon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pullon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpawnObjetos.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpawnObjetos.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +140,28 @@
       <option name="project" value="LOCAL" />
       <updated>1675505993219</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Ya son bolitas encima de un fondo normal">
+      <created>1675507667155</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675507667155</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Añadido Cesped Falso">
+      <created>1675508809160</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675508809160</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Probando colisiones">
+      <created>1675514559183</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675514559183</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +188,9 @@
     <MESSAGE value="After merge" />
     <MESSAGE value="Integracion Pullon" />
     <MESSAGE value="Imagenes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Imagenes" />
+    <MESSAGE value="Ya son bolitas encima de un fondo normal" />
+    <MESSAGE value="Añadido Cesped Falso" />
+    <MESSAGE value="Probando colisiones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Probando colisiones" />
   </component>
 </project>
