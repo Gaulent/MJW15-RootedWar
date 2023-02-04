@@ -47,11 +47,13 @@ public class Player : MonoBehaviour
 
             foreach (GameObject gObject in currentCollisions)
             {
-                if (gObject.layer == LayerMask.NameToLayer("Pullon"))
+                if (gObject.layer == LayerMask.NameToLayer("Pullon") )
                 {
-                    print(gObject.name);
-                    gObject.GetComponent<Pullon>().TryThrow();
-                    break;
+                    if (gObject.GetComponent<Pullon>().GetStatusThrowable())
+                    {
+                        gObject.GetComponent<Pullon>().TryThrow();
+                        break;
+                    }
                 }
             }
         }

@@ -39,7 +39,7 @@ public class SpawnObjetos : MonoBehaviour
 
     public void SpawnPullon() {
         
-        Vector3 spawnPosition = GetRandomPoint(0.9f);
+        Vector3 spawnPosition = GetRandomPoint(0.8f);
         GameObject Pullon = Instantiate(pullon, spawnPosition, gameObject.transform.rotation);
 
         Pullon.GetComponent<Pullon>().SetOrigin(gameObject);

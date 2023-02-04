@@ -31,6 +31,11 @@ public class Pullon : MonoBehaviour
     {
         origin = go;
     }
+
+    public bool GetStatusThrowable()
+    {
+        return (estado == EstadoPullon.noPlantado);
+    }
     
     public void SetDestiny(GameObject go)
     {
@@ -63,7 +68,7 @@ public class Pullon : MonoBehaviour
         Projectile projectile = projectileGO.GetComponent<Projectile>();
         projectile.SetOrigin(origin);
         projectile.SetDestiny(destiny);
-        projectile.GoToPosition(GetRandomPointFromOtherField(0.9f));
+        projectile.GoToPosition(GetRandomPointFromOtherField(0.8f));
     }
     
     Vector3 GetRandomPointFromOtherField(float margin)
