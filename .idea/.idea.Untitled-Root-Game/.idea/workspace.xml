@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f916d261-d0e4-4d9b-9491-0b4cb23c56c9" name="Changes" comment="Antes de actualizar el suelo de plantas">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Untitled-Root-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Untitled-Root-Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SceneLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+    <list default="true" id="f916d261-d0e4-4d9b-9491-0b4cb23c56c9" name="Changes" comment="Loop de gameOver y Start arreglado">
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pullon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pullon.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675529529524</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Loop de gameOver y Start arreglado">
+      <created>1675530310180</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1675530310180</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +258,7 @@
     <MESSAGE value="Añadiendo GameOver y Menu" />
     <MESSAGE value="Merge con Deb" />
     <MESSAGE value="Antes de actualizar el suelo de plantas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Antes de actualizar el suelo de plantas" />
+    <MESSAGE value="Loop de gameOver y Start arreglado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Loop de gameOver y Start arreglado" />
   </component>
 </project>
