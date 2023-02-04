@@ -16,6 +16,8 @@ public class GameManager : MonoBehaviour
     public Text winnerText;
     public Slider scoreSlider1;
     public Slider scoreSlider2;
+    public Image winnerImage;
+    public Sprite[] winnerSprites;
     
     
     // Start is called before the first frame update
@@ -45,7 +47,8 @@ public class GameManager : MonoBehaviour
 
     void WinnerPlayer(int winner)
     {
-        winnerText.text = "CAMPEON ¡JUGADOR " + winner + "!";
+        //winnerText.text = "CAMPEON ¡JUGADOR " + winner + "!";
+        winnerImage.sprite = winnerSprites[winner - 1];
         
         gameOverObject.SetActive(true);
         Time.timeScale = 0;
