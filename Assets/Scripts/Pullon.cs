@@ -58,6 +58,7 @@ public class Pullon : MonoBehaviour
         {
             Throw();
             Destroy(gameObject);
+            // TODO: Intentar devolver si se consiguio tirar solo en la ultima.
         }
 
     }

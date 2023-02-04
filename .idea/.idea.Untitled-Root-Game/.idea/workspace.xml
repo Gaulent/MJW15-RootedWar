@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f916d261-d0e4-4d9b-9491-0b4cb23c56c9" name="Changes" comment="Integracion de Trail">
+    <list default="true" id="f916d261-d0e4-4d9b-9491-0b4cb23c56c9" name="Changes" comment="Intento de throw">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Untitled-Root-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Untitled-Root-Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SceneLoader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SceneLoader.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pullon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pullon.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Player 1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Player 1.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/farmer_boina_tirar (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/farmer_boina_tirar (1).png.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -313,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675540232697</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Intento de throw">
+      <created>1675541244386</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1675541244386</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,7 +336,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Empezando a tirar proyectiles" />
     <MESSAGE value="Lanzamiento de proyectil y sombra" />
     <MESSAGE value="After merge" />
     <MESSAGE value="Integracion Pullon" />
@@ -360,6 +360,7 @@
     <MESSAGE value="Animaciones del jugador" />
     <MESSAGE value="Ya no tenemos bolitas!" />
     <MESSAGE value="Integracion de Trail" />
-    <option name="LAST_COMMIT_MESSAGE" value="Integracion de Trail" />
+    <MESSAGE value="Intento de throw" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intento de throw" />
   </component>
 </project>
