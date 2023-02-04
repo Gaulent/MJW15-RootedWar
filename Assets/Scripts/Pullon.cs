@@ -49,6 +49,7 @@ public class Pullon : MonoBehaviour
         else
         {
             Throw();
+            Destroy(gameObject);
         }
 
     }
@@ -58,10 +59,12 @@ public class Pullon : MonoBehaviour
     {
         GameObject projectileGO = GameObject.Instantiate(projectilePrefab,transform.position, Quaternion.identity);
         Projectile projectile = projectileGO.GetComponent<Projectile>();
-        projectile.GoToPosition(GetRandomPointFromOtherField());
+        projectile.SetOrigin(origin);
+        projectile.SetDestiny(destiny);
+        projectile.GoToPosition(GetRandomPointFromOtherField(0.9f));
     }
     
-    Vector3 GetRandomPointFromOtherField()
+    Vector3 GetRandomPointFromOtherField(float margin)
     {
         Bounds bounds = destiny.GetComponent<Collider2D>().bounds;
         float offsetX = Random.Range(-bounds.extents.x, bounds.extents.x);
@@ -69,7 +72,7 @@ public class Pullon : MonoBehaviour
         float offsetZ = Random.Range(-bounds.extents.z, bounds.extents.z);
  
         
-        return bounds.center + new Vector3(offsetX, offsetY, offsetZ);
+        return bounds.center + new Vector3(offsetX, offsetY, offsetZ) * margin;
     }
 
     
@@ -87,7 +90,7 @@ public class Pullon : MonoBehaviour
         }
 
         else if(estado == EstadoPullon.plantado) {
-            //Debug.Log("El pullon se ha plantao bro");
+            Debug.Log("El pullon se ha plantao bro");
         }
 
     }

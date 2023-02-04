@@ -184,3 +184,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeToArrival: 2
   shadowPrefab: {fileID: 2392916754283887470, guid: a3136c5f3a556264e83ab0a19b743f16, type: 3}
+  destiny: {fileID: 0}
+  pullonPrefab: {fileID: 1507930274618074489, guid: 2f196a8a22810ab44a1420028bc0385a, type: 3}

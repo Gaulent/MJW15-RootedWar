@@ -14,7 +14,7 @@ public class Player : MonoBehaviour
     public Collider2D otherField;
     public GameObject projectilePrefab;
     public Collider2D _myCollider;
-    private bool tryThrow = false;
+    List <GameObject> currentCollisions = new List <GameObject> ();
     
     // Start is called before the first frame update
     void Start()
@@ -27,23 +27,6 @@ public class Player : MonoBehaviour
 
     }
 
-    void Throw()
-    {
-        GameObject projectileGO = GameObject.Instantiate(projectilePrefab,transform.position, Quaternion.identity);
-        Projectile projectile = projectileGO.GetComponent<Projectile>();
-        projectile.GoToPosition(GetRandomPointFromOtherField());
-    }
-    
-    Vector3 GetRandomPointFromOtherField()
-    {
-        Bounds bounds = otherField.bounds;
-        float offsetX = Random.Range(-bounds.extents.x, bounds.extents.x);
-        float offsetY = Random.Range(-bounds.extents.y, bounds.extents.y);
-        float offsetZ = Random.Range(-bounds.extents.z, bounds.extents.z);
- 
-        
-        return bounds.center + new Vector3(offsetX, offsetY, offsetZ);
-    }
 
     // Update is called once per frame
     void FixedUpdate()
@@ -62,11 +45,19 @@ public class Player : MonoBehaviour
         if (Input.GetButtonDown("P" + playerNumber + "_Fire"))
         {
 
-            tryThrow = true;
+            foreach (GameObject gObject in currentCollisions)
+            {
+                if (gObject.layer == LayerMask.NameToLayer("Pullon"))
+                {
+                    print(gObject.name);
+                    gObject.GetComponent<Pullon>().TryThrow();
+                    break;
+                }
+            }
         }
 
     }
-
+/*
     private void OnTriggerStay2D(Collider2D other)
     {
         if (tryThrow)
@@ -87,10 +78,34 @@ public class Player : MonoBehaviour
         
 
     }
-
-
+*/
+/*
     private void OnTriggerEnter2D(Collider2D col)
     {
         Debug.Log(col.gameObject);
+    }*/
+    
+    
+    
+    private void OnTriggerEnter2D (Collider2D col) {
+ 
+        // Add the GameObject collided with to the list.
+        currentCollisions.Add (col.gameObject);
+ 
+        // Print the entire list to the console.
+        //foreach (GameObject gObject in currentCollisions) {
+            //print (gObject.name);
+        //}
+    }
+ 
+    private void OnTriggerExit2D (Collider2D col) {
+ 
+        // Remove the GameObject collided with from the list.
+        currentCollisions.Remove (col.gameObject);
+ 
+        // Print the entire list to the console.
+        //foreach (GameObject gObject in currentCollisions) {
+        //    print (gObject.name);
+        //}
     }
 }

@@ -12,13 +12,16 @@ public class Projectile : MonoBehaviour
     private Vector3 _finishPos;
     public GameObject shadowPrefab;
     private Transform shadow;
+    public GameObject destiny;
+    public GameObject origin;
+    public GameObject pullonPrefab;
     
     // Start is called before the first frame update
     void Start()
     {
         _startTime = Time.time;
         _startPos = transform.position;
-        Debug.Log(_startPos);
+        //Debug.Log(_startPos);
         shadow = transform.GetChild(0);
     }
 
@@ -31,7 +34,14 @@ public class Projectile : MonoBehaviour
             shadow.position = _startPos + (_finishPos - _startPos) * (Time.time - _startTime) / timeToArrival;
         }
         else
+        {
+            GameObject _newPullon = Instantiate(pullonPrefab, transform.position, quaternion.identity);
+
+            _newPullon.GetComponent<Pullon>().SetDestiny(origin);
+            _newPullon.GetComponent<Pullon>().SetOrigin(destiny);
+
             Destroy(gameObject);
+        }
     }
     
     public static Vector3 Parabola(Vector3 start, Vector3 end, float height, float t)
@@ -49,5 +59,16 @@ public class Projectile : MonoBehaviour
     {
         _finishPos = targetPosition;
         //Debug.Log(targetPosition);
+    }
+    
+    
+    public void SetOrigin(GameObject go)
+    {
+        origin = go;
+    }
+    
+    public void SetDestiny(GameObject go)
+    {
+        destiny = go;
     }
 }
