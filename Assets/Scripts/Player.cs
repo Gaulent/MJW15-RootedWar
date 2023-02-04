@@ -16,7 +16,7 @@ public class Player : MonoBehaviour
     public GameObject projectilePrefab;
     public Collider2D _myCollider;
     List <GameObject> currentCollisions = new List <GameObject> ();
-    private bool flipSprite=false;
+    private bool flipSprite;
     private SpriteRenderer _mySR;
     private Animator _myAnimator;
     
@@ -27,6 +27,7 @@ public class Player : MonoBehaviour
         _myCollider = GetComponent<Collider2D>();
         _mySR = GetComponent<SpriteRenderer>();
         _myAnimator = GetComponent<Animator>();
+        flipSprite = _mySR.flipX;
         //Debug.Log(otherField.bounds.extents.y);
 
         //InvokeRepeating(nameof(Throw),1f,2f);
