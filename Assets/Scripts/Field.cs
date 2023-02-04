@@ -32,6 +32,11 @@ public class Field : MonoBehaviour
     void Update()
     {
 
+    }
+
+    public int GetScore()
+    {
+        
         int count = 0;
 
         for (int i = 0; i < hijos.Length; i++)
@@ -39,7 +44,8 @@ public class Field : MonoBehaviour
             if(hijos[i].IsTouchingLayers(LayerMask.GetMask("Cover")))
                 count++;
         }
-        
+
+        return count;
         //Debug.Log(count);
     }
     

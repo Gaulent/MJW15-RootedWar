@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f916d261-d0e4-4d9b-9491-0b4cb23c56c9" name="Changes" comment="Implementando AoE">
+    <list default="true" id="f916d261-d0e4-4d9b-9491-0b4cb23c56c9" name="Changes" comment="Listo las AoE">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Untitled-Root-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Untitled-Root-Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExpandingArea.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExpandingArea.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/P1_AoE.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/P1_AoE.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/P2_AoE.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/P2_AoE.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GaulentDevScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GaulentDevScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pullon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pullon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpawnObjetos.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpawnObjetos.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Field.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Field.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675518822680</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Listo las AoE">
+      <created>1675521644179</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675521644179</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +209,7 @@
     <MESSAGE value="Probando colisiones" />
     <MESSAGE value="Terminado lanzar y devolver pullones" />
     <MESSAGE value="Implementando AoE" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementando AoE" />
+    <MESSAGE value="Listo las AoE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Listo las AoE" />
   </component>
 </project>
