@@ -4,29 +4,31 @@ using UnityEngine;
 
 public class SpawnObjetos : MonoBehaviour
 {
-
+    private Collider2D _myCollider;
     public GameObject pullon;
 
     public float timeSpawn = 1;
     public float repeatTimeSpawn = 3;
 
-    public Transform esquina1;
-    public Transform esquina2;
-    public Transform esquina3;
-    public Transform esquina4;
-    public Transform esquina5;
-    public Transform esquina6;
-    public Transform esquina7;
-    public Transform esquina8;
-
-
-
-    // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("SpawnPullon1", timeSpawn, repeatTimeSpawn);
-        InvokeRepeating("SpawnPullon2", timeSpawn, repeatTimeSpawn);
+        _myCollider = GetComponent<Collider2D>();
+        InvokeRepeating("SpawnPullon", timeSpawn, repeatTimeSpawn); 
     }
+
+    Vector3 GetRandomPoint()
+    {
+        Bounds bounds = _myCollider.bounds;
+        float offsetX = Random.Range(-bounds.extents.x, bounds.extents.x);
+        float offsetY = Random.Range(-bounds.extents.y, bounds.extents.y);
+        float offsetZ = Random.Range(-bounds.extents.z, bounds.extents.z);
+ 
+        
+        return bounds.center + new Vector3(offsetX, offsetY, -1);
+    }
+    
+    // Start is called before the first frame update
+
 
     // Update is called once per frame
     void Update()
@@ -34,19 +36,13 @@ public class SpawnObjetos : MonoBehaviour
         
     }
 
-    public void SpawnPullon1() {
-
-        Vector3 spawnPosition = new Vector3(0,0,0);
-        spawnPosition = new Vector3(Random.Range(esquina1.position.x,esquina2.position.x),Random.Range(esquina2.position.y,esquina3.position.y),0);
+    public void SpawnPullon() {
+        
+        Vector3 spawnPosition = GetRandomPoint();
         GameObject Pullon = Instantiate(pullon, spawnPosition, gameObject.transform.rotation);
 
     }
-
-    public void SpawnPullon2() {
-
-        Vector3 spawnPosition = new Vector3(0,0,0);
-        spawnPosition = new Vector3(Random.Range(esquina5.position.x,esquina6.position.x),Random.Range(esquina6.position.y,esquina7.position.y),0);
-        GameObject Pullon = Instantiate(pullon, spawnPosition, gameObject.transform.rotation);
-
-    }
+    
 }
+
+

@@ -490,6 +490,7 @@ GameObject:
   - component: {fileID: 202184367}
   - component: {fileID: 202184369}
   - component: {fileID: 202184370}
+  - component: {fileID: 202184371}
   m_Layer: 0
   m_Name: Field 2
   m_TagString: Untagged
@@ -603,6 +604,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   checkPointPrefab: {fileID: 7308956714268529181, guid: c9406329ca03d1142951e8112247cdc7, type: 3}
+--- !u!114 &202184371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 202184366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddc45f341e8ebf84ca25d28b4837a19d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pullon: {fileID: 1507930274618074489, guid: 2f196a8a22810ab44a1420028bc0385a, type: 3}
+  timeSpawn: 1
+  repeatTimeSpawn: 3
 --- !u!1 &235851956
 GameObject:
   m_ObjectHideFlags: 0
@@ -1611,6 +1627,7 @@ GameObject:
   - component: {fileID: 2096420033}
   - component: {fileID: 2096420032}
   - component: {fileID: 2096420035}
+  - component: {fileID: 2096420036}
   m_Layer: 0
   m_Name: Field 1
   m_TagString: Untagged
@@ -1724,6 +1741,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   checkPointPrefab: {fileID: 7308956714268529181, guid: c9406329ca03d1142951e8112247cdc7, type: 3}
+--- !u!114 &2096420036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096420031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddc45f341e8ebf84ca25d28b4837a19d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pullon: {fileID: 1507930274618074489, guid: 2f196a8a22810ab44a1420028bc0385a, type: 3}
+  timeSpawn: 1
+  repeatTimeSpawn: 3
 --- !u!1001 &7680969293058946785
 PrefabInstance:
   m_ObjectHideFlags: 0
