@@ -8,6 +8,7 @@ using Random = UnityEngine.Random;
 
 public class Player : MonoBehaviour
 {
+    [SerializeField] private ParticleSystem particulas;
     public int playerNumber = 1;
     public float speed = 10f;
     private Rigidbody2D _myRB;
@@ -36,6 +37,7 @@ public class Player : MonoBehaviour
         //float xMoveAmount = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
         //float yMoveAmount = Input.GetAxis("Vertical") * speed * Time.deltaTime;
         transform.position += new Vector3(xMoveAmount, yMoveAmount, 0);
+        particulas.Play();
     }
 
 
