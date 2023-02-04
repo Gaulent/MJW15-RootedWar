@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f916d261-d0e4-4d9b-9491-0b4cb23c56c9" name="Changes" comment="Incorporacion de Mapeos para el mando">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartScreen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartScreen.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/DustParticle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/DustParticle.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/brote_arrojado.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/brote_arrojado.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/granja_titulo_animada.gif.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/granja_titulo_animada.gif.meta" afterDir="false" />
-    </list>
+    <list default="true" id="f916d261-d0e4-4d9b-9491-0b4cb23c56c9" name="Changes" comment="Sprites de botones en inicio" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -341,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675549029541</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Sprites de botones en inicio">
+      <created>1675549602313</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1675549602313</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,7 +365,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Integracion Pullon" />
     <MESSAGE value="Imagenes" />
     <MESSAGE value="Ya son bolitas encima de un fondo normal" />
     <MESSAGE value="Añadido Cesped Falso" />
@@ -388,6 +389,7 @@
     <MESSAGE value="Intento de throw" />
     <MESSAGE value="Terminada animacion de tirar. TODO: Intentar hacerlo solo en la ultima." />
     <MESSAGE value="Incorporacion de Mapeos para el mando" />
-    <option name="LAST_COMMIT_MESSAGE" value="Incorporacion de Mapeos para el mando" />
+    <MESSAGE value="Sprites de botones en inicio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sprites de botones en inicio" />
   </component>
 </project>
