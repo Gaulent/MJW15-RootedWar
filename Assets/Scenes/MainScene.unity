@@ -1495,6 +1495,7 @@ MonoBehaviour:
   field1GO: {fileID: 2096420031}
   field2GO: {fileID: 202184366}
   gameOverObject: {fileID: 151769379}
+  winnerText: {fileID: 2088976499}
 --- !u!1 &1190816603
 GameObject:
   m_ObjectHideFlags: 0
@@ -2290,7 +2291,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "CAMPEON \xA1JUGADOR 1!"
+  m_Text: "CAMPEON \xA1JUGADOR 2!"
 --- !u!222 &2088976500
 CanvasRenderer:
   m_ObjectHideFlags: 0

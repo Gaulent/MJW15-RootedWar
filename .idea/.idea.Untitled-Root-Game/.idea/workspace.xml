@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f916d261-d0e4-4d9b-9491-0b4cb23c56c9" name="Changes" comment="Prueba de sprite-brote">
+    <list default="true" id="f916d261-d0e4-4d9b-9491-0b4cb23c56c9" name="Changes" comment="After another Merge">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Untitled-Root-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Untitled-Root-Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectile.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pullon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pullon.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brote_sembrado (3).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/granja_titulo_animada.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pullon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pullon.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675530986931</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="After another Merge">
+      <created>1675531889498</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1675531889498</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,6 +280,7 @@
     <MESSAGE value="Antes de actualizar el suelo de plantas" />
     <MESSAGE value="Loop de gameOver y Start arreglado" />
     <MESSAGE value="Prueba de sprite-brote" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prueba de sprite-brote" />
+    <MESSAGE value="After another Merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="After another Merge" />
   </component>
 </project>

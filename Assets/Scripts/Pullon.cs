@@ -16,8 +16,9 @@ public class Pullon : MonoBehaviour
     public GameObject origin;
     public GameObject destiny;
     public GameObject projectilePrefab;
-
-
+    public Sprite aliveSprite;
+    public Sprite frozenSprite;
+    private SpriteRenderer _mySR;
     
     
     
@@ -45,8 +46,8 @@ public class Pullon : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        _mySR = GetComponent<SpriteRenderer>();
 
-        
     }
 
     public void TryThrow()
@@ -93,12 +94,14 @@ public class Pullon : MonoBehaviour
             contadorPlantado -= Time.deltaTime;
             if(contadorPlantado <= 0) {
                 estado = EstadoPullon.plantado;
+                _mySR.sprite = frozenSprite;
                 origin.GetComponent<Field>().SpawnAoE(transform.position);
             }
         }
 
-        else if(estado == EstadoPullon.plantado) {
-            
+        else if(estado == EstadoPullon.plantado)
+        {
+
         }
 
     }

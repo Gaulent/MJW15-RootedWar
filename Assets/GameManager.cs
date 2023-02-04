@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     private Field field1;
     private Field field2;
     public GameObject gameOverObject;
+    public Text winnerText;
     
     
     // Start is called before the first frame update
@@ -40,9 +41,10 @@ public class GameManager : MonoBehaviour
 
     void WinnerPlayer(int winner)
     {
-        Debug.Log("Winner Player " + winner);
+        winnerText.text = "CAMPEON ¡JUGADOR " + winner + "!";
+        
         gameOverObject.SetActive(true);
-            Time.timeScale = 0;
+        Time.timeScale = 0;
     }
 
     public void StartOver()
