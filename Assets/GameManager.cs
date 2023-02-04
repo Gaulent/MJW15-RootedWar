@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     {
         field1 = field1GO.GetComponent<Field>();
         field2 = field2GO.GetComponent<Field>();
+        Time.timeScale = 1;
     }
 
     // Update is called once per frame
