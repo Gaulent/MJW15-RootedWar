@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
     private Field field2;
     public GameObject gameOverObject;
     public Text winnerText;
+    public Slider scoreSlider1;
+    public Slider scoreSlider2;
     
     
     // Start is called before the first frame update
@@ -35,8 +37,10 @@ public class GameManager : MonoBehaviour
         if (score2 >= 100)
             WinnerPlayer(1);
         
-        scoreText1.text = field1.GetScore().ToString() + "%";
-        scoreText2.text = field2.GetScore().ToString() + "%";
+        scoreSlider1.value = field1.GetScore()/100f;
+        scoreSlider2.value = field2.GetScore()/100f;
+        //scoreText1.text = field1.GetScore().ToString() + "%";
+        //scoreText2.text = field2.GetScore().ToString() + "%";
     }
 
     void WinnerPlayer(int winner)

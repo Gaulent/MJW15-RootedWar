@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f916d261-d0e4-4d9b-9491-0b4cb23c56c9" name="Changes" comment="Sprites de botones en inicio" />
+    <list default="true" id="f916d261-d0e4-4d9b-9491-0b4cb23c56c9" name="Changes" comment="Pantalla de inicio">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Untitled-Root-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Untitled-Root-Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/farmer_boina_andar (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/farmer_boina_jalar.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +40,7 @@
     <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scenes/GaulentDevScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scenes/GaulentDevScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scenes/MainScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scenes/StartScreen.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scenes/StartScreen.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ExpandingArea.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scripts/Field.cs" root0="SKIP_HIGHLIGHTING" />
@@ -343,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675549602313</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Pantalla de inicio">
+      <created>1675550405461</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1675550405461</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,7 +380,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Imagenes" />
     <MESSAGE value="Ya son bolitas encima de un fondo normal" />
     <MESSAGE value="Añadido Cesped Falso" />
     <MESSAGE value="Probando colisiones" />
@@ -390,6 +404,7 @@
     <MESSAGE value="Terminada animacion de tirar. TODO: Intentar hacerlo solo en la ultima." />
     <MESSAGE value="Incorporacion de Mapeos para el mando" />
     <MESSAGE value="Sprites de botones en inicio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sprites de botones en inicio" />
+    <MESSAGE value="Pantalla de inicio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pantalla de inicio" />
   </component>
 </project>
