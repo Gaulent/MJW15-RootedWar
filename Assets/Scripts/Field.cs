@@ -39,7 +39,7 @@ public class Field : MonoBehaviour
                 count++;
         }
         
-        Debug.Log(count);
+        //Debug.Log(count);
     }
     
     

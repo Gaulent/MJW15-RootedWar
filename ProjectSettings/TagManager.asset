@@ -11,8 +11,8 @@ TagManager:
   - Cover
   - Water
   - UI
-  - 
-  - 
+  - Pullon
+  - Player
   - 
   - 
   - 
@@ -52,4 +52,10 @@ TagManager:
     locked: 0
   - name: Cover 2
     uniqueID: 2736107479
+    locked: 0
+  - name: Pullones
+    uniqueID: 2113262321
+    locked: 0
+  - name: Players
+    uniqueID: 2294964159
     locked: 0

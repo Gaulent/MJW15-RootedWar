@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
@@ -12,15 +13,18 @@ public class Player : MonoBehaviour
     private Rigidbody2D _myRB;
     public Collider2D otherField;
     public GameObject projectilePrefab;
+    public Collider2D _myCollider;
+    private bool tryThrow = false;
     
     // Start is called before the first frame update
     void Start()
     {
         _myRB = GetComponent<Rigidbody2D>();
+        _myCollider = GetComponent<Collider2D>();
         //Debug.Log(otherField.bounds.extents.y);
-        
+
         //InvokeRepeating(nameof(Throw),1f,2f);
-        
+
     }
 
     void Throw()
@@ -55,8 +59,38 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetButtonDown("P"+playerNumber + "_Fire"))
-            Throw();
+        if (Input.GetButtonDown("P" + playerNumber + "_Fire"))
+        {
+
+            tryThrow = true;
+        }
+
     }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (tryThrow)
+        {
+            tryThrow = false;
+            //Throw();
+
+            //Debug.Log("Hola");
+
+            //if (other.gameObject.layer == LayerMask.NameToLayer("Pullon"))
+            //{
+                Debug.Log(other.gameObject.layer);
+                other.GetComponent<Pullon>().TryThrow();
+            //}
+
+        }
     
+        
+
+    }
+
+
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        Debug.Log(col.gameObject);
+    }
 }

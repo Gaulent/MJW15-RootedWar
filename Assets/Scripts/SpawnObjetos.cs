@@ -6,9 +6,10 @@ public class SpawnObjetos : MonoBehaviour
 {
     private Collider2D _myCollider;
     public GameObject pullon;
+    public GameObject otherField;
 
-    public float timeSpawn = 1;
-    public float repeatTimeSpawn = 3;
+    public float timeSpawn = 1f;
+    public float repeatTimeSpawn = 5f;
 
     void Start()
     {
@@ -40,6 +41,9 @@ public class SpawnObjetos : MonoBehaviour
         
         Vector3 spawnPosition = GetRandomPoint();
         GameObject Pullon = Instantiate(pullon, spawnPosition, gameObject.transform.rotation);
+
+        Pullon.GetComponent<Pullon>().SetOrigin(gameObject);
+        Pullon.GetComponent<Pullon>().SetDestiny(otherField);
 
     }
     
