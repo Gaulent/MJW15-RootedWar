@@ -1044,6 +1044,58 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 110324863}
     m_Modifications:
+    - target: {fileID: 6483040084317491876, guid: a7f32913c7682ba48b6b31c39c89d689, type: 3}
+      propertyPath: m_Time
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6483040084317491876, guid: a7f32913c7682ba48b6b31c39c89d689, type: 3}
+      propertyPath: m_SortingLayer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6483040084317491876, guid: a7f32913c7682ba48b6b31c39c89d689, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -2000003137
+      objectReference: {fileID: 0}
+    - target: {fileID: 6483040084317491876, guid: a7f32913c7682ba48b6b31c39c89d689, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 6483040084317491876, guid: a7f32913c7682ba48b6b31c39c89d689, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.b
+      value: 0.6039216
+      objectReference: {fileID: 0}
+    - target: {fileID: 6483040084317491876, guid: a7f32913c7682ba48b6b31c39c89d689, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.g
+      value: 0.47407696
+      objectReference: {fileID: 0}
+    - target: {fileID: 6483040084317491876, guid: a7f32913c7682ba48b6b31c39c89d689, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.r
+      value: 0.21176468
+      objectReference: {fileID: 0}
+    - target: {fileID: 6483040084317491876, guid: a7f32913c7682ba48b6b31c39c89d689, type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6483040084317491876, guid: a7f32913c7682ba48b6b31c39c89d689, type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.b
+      value: 0.6039216
+      objectReference: {fileID: 0}
+    - target: {fileID: 6483040084317491876, guid: a7f32913c7682ba48b6b31c39c89d689, type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.g
+      value: 0.47450984
+      objectReference: {fileID: 0}
+    - target: {fileID: 6483040084317491876, guid: a7f32913c7682ba48b6b31c39c89d689, type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.r
+      value: 0.21176472
+      objectReference: {fileID: 0}
+    - target: {fileID: 6483040084317491876, guid: a7f32913c7682ba48b6b31c39c89d689, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6483040084317491876, guid: a7f32913c7682ba48b6b31c39c89d689, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[1].value
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6483040084317491878, guid: a7f32913c7682ba48b6b31c39c89d689, type: 3}
       propertyPath: m_Name
       value: Trail
@@ -1261,6 +1313,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1508888086}
     m_Modifications:
+    - target: {fileID: 6483040084317491876, guid: a7f32913c7682ba48b6b31c39c89d689, type: 3}
+      propertyPath: m_Time
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6483040084317491876, guid: a7f32913c7682ba48b6b31c39c89d689, type: 3}
+      propertyPath: m_SortingLayer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6483040084317491876, guid: a7f32913c7682ba48b6b31c39c89d689, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -2000003137
+      objectReference: {fileID: 0}
+    - target: {fileID: 6483040084317491876, guid: a7f32913c7682ba48b6b31c39c89d689, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 6483040084317491876, guid: a7f32913c7682ba48b6b31c39c89d689, type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6483040084317491876, guid: a7f32913c7682ba48b6b31c39c89d689, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6483040084317491876, guid: a7f32913c7682ba48b6b31c39c89d689, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[1].value
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6483040084317491878, guid: a7f32913c7682ba48b6b31c39c89d689, type: 3}
       propertyPath: m_Name
       value: Trail

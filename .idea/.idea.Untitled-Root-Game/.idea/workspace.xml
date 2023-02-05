@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f916d261-d0e4-4d9b-9491-0b4cb23c56c9" name="Changes" comment="">
+    <list default="true" id="f916d261-d0e4-4d9b-9491-0b4cb23c56c9" name="Changes" comment="Incluido Jugador 2">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Untitled-Root-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Untitled-Root-Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,29 +31,8 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Prefabs/Pullon.prefab" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scenes/GaulentDevScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scenes/GaulentDevScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scenes/GaulentDevScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scenes/MainScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scenes/StartScreen.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scenes/StartScreen.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ExpandingArea.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scripts/Field.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scripts/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scripts/Projectile.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Sprites/campofondo2_der hierba.png.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Sprites/farmer_boina_tirar (1).png.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/ProjectSettings/InputManager.asset" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/ProjectSettings/ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/ProjectSettings/ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -136,6 +116,7 @@
       <updated>1675449983030</updated>
       <workItem from="1675449986566" duration="749000" />
       <workItem from="1675497718146" duration="5969000" />
+      <workItem from="1675586099375" duration="1047000" />
     </task>
     <task id="LOCAL-00001" summary="Empezando a tirar proyectiles">
       <created>1675463866557</created>
@@ -382,7 +363,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675554796894</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Ajuste de botones de disparo y sonido">
+      <created>1675586124454</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1675586124454</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Incluido Jugador 2">
+      <created>1675586833454</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1675586833454</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,8 +399,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Implementando AoE" />
-    <MESSAGE value="Listo las AoE" />
     <MESSAGE value="Añadida Puntuacion. Toca arreglar el cruce de puntuaciones" />
     <MESSAGE value="Arreglado bug de la puntuacion" />
     <MESSAGE value="Añadiendo GameOver y Menu" />
@@ -429,6 +422,8 @@
     <MESSAGE value="Merge y Boton de reiniciar" />
     <MESSAGE value="Ya no quedan cosas feas" />
     <MESSAGE value="Merge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge" />
+    <MESSAGE value="Ajuste de botones de disparo y sonido" />
+    <MESSAGE value="Incluido Jugador 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Incluido Jugador 2" />
   </component>
 </project>
