@@ -263,6 +263,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 110324864, guid: ccccd67f4e4fe7a448bd9cca6210be08, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ec741126d0d979046a244feef17ae45a, type: 2}
     - target: {fileID: 7680969292182210728, guid: ccccd67f4e4fe7a448bd9cca6210be08, type: 3}
       propertyPath: m_Name
       value: Player 2
@@ -271,6 +275,10 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7680969292182210730, guid: ccccd67f4e4fe7a448bd9cca6210be08, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2099089820, guid: d5e77c1753885ef4ba6b8e1818216417, type: 3}
     - target: {fileID: 7680969292182210731, guid: ccccd67f4e4fe7a448bd9cca6210be08, type: 3}
       propertyPath: otherField
       value: 
@@ -2377,7 +2385,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1038389077, guid: 508bf4b4e0492eb4bbbf9b652caf92e5, type: 3}
+  m_Sprite: {fileID: -2099089820, guid: d5e77c1753885ef4ba6b8e1818216417, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
