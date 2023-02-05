@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d5e77c1753885ef4ba6b8e1818216417
+guid: 4f30307117205df45a32350912796aac
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: farmer_sombrero_andar_0
+      name: farmer_sombrero_arrancar (1)_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 144
-        width: 144
-        height: 144
+        y: 1152
+        width: 576
+        height: 576
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccc0d340e84bd494e99dbff30c6e9539
-      internalID: -2099089820
+      spriteID: 4755b6c4ce841ff44a029ee1ec50eac5
+      internalID: -141696622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: farmer_sombrero_andar_1
+      name: farmer_sombrero_arrancar (1)_1
       rect:
         serializedVersion: 2
-        x: 144
-        y: 144
-        width: 144
-        height: 144
+        x: 576
+        y: 1152
+        width: 576
+        height: 576
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +152,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93ee92e4f27df4146854baf70f00dc34
-      internalID: -1925033084
+      spriteID: a2c5f937f7fd51f4d8f5cda66b83d90e
+      internalID: -228646766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: farmer_sombrero_andar_2
+      name: farmer_sombrero_arrancar (1)_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 576
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9413007f904c215488caade9f47bba5c
+      internalID: -2021182213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer_sombrero_arrancar (1)_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 576
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0f2adc9fd160747a5e44922971e985
+      internalID: 159884724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer_sombrero_arrancar (1)_4
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 144
-        height: 144
+        width: 576
+        height: 576
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,29 +215,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9eb7dcdf606887f4eb20ce4bc79c162b
-      internalID: 410818697
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: farmer_sombrero_andar_3
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 0
-        width: 144
-        height: 144
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: be73ba82e7311c64196546606732ac33
-      internalID: -356763862
+      spriteID: 903c18aabc7e1674aab4dfbb165f3c98
+      internalID: -1485262723
       vertices: []
       indices: 
       edges: []
@@ -211,10 +232,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      farmer_sombrero_andar_3: -356763862
-      farmer_sombrero_andar_1: -1925033084
-      farmer_sombrero_andar_0: -2099089820
-      farmer_sombrero_andar_2: 410818697
+      farmer_sombrero_arrancar (1)_4: -1485262723
+      farmer_sombrero_arrancar (1)_0: -141696622
+      farmer_sombrero_arrancar (1)_3: 159884724
+      farmer_sombrero_arrancar (1)_2: -2021182213
+      farmer_sombrero_arrancar (1)_1: -228646766
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
