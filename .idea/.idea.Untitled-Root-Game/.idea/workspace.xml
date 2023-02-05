@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f916d261-d0e4-4d9b-9491-0b4cb23c56c9" name="Changes" comment="Terminando de animar el arrancado">
+    <list default="true" id="f916d261-d0e4-4d9b-9491-0b4cb23c56c9" name="Changes" comment="Animado, pero muy grande">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Untitled-Root-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Untitled-Root-Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Player 2/P2_Pull.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Player 2/P2_Pull.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Player 2/farmer_sombrero_andar.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Player 2/farmer_sombrero_andar.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/farmer_sombrero_arrancar (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Player 2/farmer_sombrero_arrancar (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Player 2/farmer_sombrero_arrancar (1).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/farmer_sombrero_arrancar (2).png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +38,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ExpandingArea.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scripts/Projectile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scripts/SceneLoader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Sprites/Player/Player 2/farmer_sombrero_andar.png.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/ProjectSettings/InputManager.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/ProjectSettings/ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -120,7 +124,7 @@
       <updated>1675449983030</updated>
       <workItem from="1675449986566" duration="749000" />
       <workItem from="1675497718146" duration="5969000" />
-      <workItem from="1675586099375" duration="7766000" />
+      <workItem from="1675586099375" duration="8036000" />
     </task>
     <task id="LOCAL-00001" summary="Empezando a tirar proyectiles">
       <created>1675463866557</created>
@@ -423,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675606893490</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Animado, pero muy grande">
+      <created>1675607126722</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1675607126722</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,7 +456,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Prueba de sprite-brote" />
     <MESSAGE value="After another Merge" />
     <MESSAGE value="Sprite de la planta arrojadiza" />
     <MESSAGE value="Refinado TrailRenderer" />
@@ -470,6 +480,7 @@
     <MESSAGE value="Arreglado el boton de 'Salir'. Entregado en itch.io" />
     <MESSAGE value="Jugando con las particulas. Efecto polvo" />
     <MESSAGE value="Terminando de animar el arrancado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Terminando de animar el arrancado" />
+    <MESSAGE value="Animado, pero muy grande" />
+    <option name="LAST_COMMIT_MESSAGE" value="Animado, pero muy grande" />
   </component>
 </project>
