@@ -50,17 +50,17 @@ public class Pullon : MonoBehaviour
 
     }
 
-    public void TryThrow()
+    public bool TryThrow()
     {
         if (throwResistance > 0)
-            throwResistance--;
-        else
         {
-            Throw();
-            Destroy(gameObject);
-            // TODO: Intentar devolver si se consiguio tirar solo en la ultima.
+            throwResistance--;
+            return false;
         }
+        Throw();
 
+        Destroy(gameObject);
+        return true;
     }
     
     

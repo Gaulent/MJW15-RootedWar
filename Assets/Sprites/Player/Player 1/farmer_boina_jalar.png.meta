@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 796cdd05640032c4ca48bb6bd7310ea3
+guid: cbc9c4a2a661e9540a53a3d59ac2bdcd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -101,11 +101,23 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: farmer_sombrero_tirar (3)_0
+      name: farmer_boina_jalar_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1675f7920f6fdda4d963d6e3f2b1a236
-      internalID: -1159982405
+      spriteID: 671c5bc2ffdd02648b8f9d9cad5bfdf0
+      internalID: 1487876331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: farmer_sombrero_tirar (3)_1
+      name: farmer_boina_jalar_1
       rect:
         serializedVersion: 2
         x: 144
@@ -140,14 +152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3b397e41458eb54dba023c4961671b5
-      internalID: 893244491
+      spriteID: 2822867400a12404d87a039b30d38532
+      internalID: 798698064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: farmer_sombrero_tirar (3)_2
+      name: farmer_boina_jalar_2
       rect:
         serializedVersion: 2
         x: 0
@@ -161,14 +173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4262ed570367b6f48bb7a3be757864b1
-      internalID: 655969387
+      spriteID: 01db5fbbace91b049bff77e2ffc4a10d
+      internalID: 949230736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: farmer_sombrero_tirar (3)_3
+      name: farmer_boina_jalar_3
       rect:
         serializedVersion: 2
         x: 144
@@ -182,14 +194,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5178b87321cc4c840a2b372333be31bf
-      internalID: -875803032
+      spriteID: 0def8186d1179a14395ce489ff282766
+      internalID: 1745889549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: farmer_sombrero_tirar (3)_4
+      name: farmer_boina_jalar_4
       rect:
         serializedVersion: 2
         x: 0
@@ -203,14 +215,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d4951df8e0c43144ad1ebae7dcee4e3
-      internalID: 904570991
+      spriteID: 4f402e4b53b6d3e47b63f3f341ddac36
+      internalID: -1642417098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: farmer_sombrero_tirar (3)_5
+      name: farmer_boina_jalar_5
       rect:
         serializedVersion: 2
         x: 144
@@ -224,8 +236,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec0fd2219281a384899526d869a25e38
-      internalID: 1339522905
+      spriteID: 24d5a0200bbb335439835987ac7c2d7c
+      internalID: 154286839
       vertices: []
       indices: 
       edges: []
@@ -241,12 +253,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      farmer_sombrero_tirar (3)_1: 893244491
-      farmer_sombrero_tirar (3)_4: 904570991
-      farmer_sombrero_tirar (3)_0: -1159982405
-      farmer_sombrero_tirar (3)_2: 655969387
-      farmer_sombrero_tirar (3)_5: 1339522905
-      farmer_sombrero_tirar (3)_3: -875803032
+      farmer_boina_jalar_4: -1642417098
+      farmer_boina_jalar_2: 949230736
+      farmer_boina_jalar_1: 798698064
+      farmer_boina_jalar_0: 1487876331
+      farmer_boina_jalar_3: 1745889549
+      farmer_boina_jalar_5: 154286839
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
