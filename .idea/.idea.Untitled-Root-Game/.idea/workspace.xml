@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f916d261-d0e4-4d9b-9491-0b4cb23c56c9" name="Changes" comment="Merge con nuevos gifs">
+    <list default="true" id="f916d261-d0e4-4d9b-9491-0b4cb23c56c9" name="Changes" comment="Arreglado el boton de 'Salir'. Entregado en itch.io">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Untitled-Root-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Untitled-Root-Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartScreen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartScreen.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +33,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ExpandingArea.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/Assets/Scripts/SceneLoader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/ProjectSettings/InputManager.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Gaulent/RiderProjects/Untitled-Root-Game/ProjectSettings/ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -64,7 +65,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/Build/Untitled-Root-Game.exe" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Build\Rooted War.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="C:\Users\Gaulent\RiderProjects\Untitled-Root-Game\Build" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -118,7 +119,7 @@
       <updated>1675449983030</updated>
       <workItem from="1675449986566" duration="749000" />
       <workItem from="1675497718146" duration="5969000" />
-      <workItem from="1675586099375" duration="2568000" />
+      <workItem from="1675586099375" duration="4388000" />
     </task>
     <task id="LOCAL-00001" summary="Empezando a tirar proyectiles">
       <created>1675463866557</created>
@@ -400,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675595315038</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Arreglado el boton de 'Salir'. Entregado en itch.io">
+      <created>1675597028488</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1675597028488</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,7 +430,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Merge con Deb" />
     <MESSAGE value="Antes de actualizar el suelo de plantas" />
     <MESSAGE value="Loop de gameOver y Start arreglado" />
     <MESSAGE value="Prueba de sprite-brote" />
@@ -447,6 +454,7 @@
     <MESSAGE value="Ajustes en el trail. Version lista para el trailer" />
     <MESSAGE value="Cambio de nombre del Juego" />
     <MESSAGE value="Merge con nuevos gifs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge con nuevos gifs" />
+    <MESSAGE value="Arreglado el boton de 'Salir'. Entregado en itch.io" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arreglado el boton de 'Salir'. Entregado en itch.io" />
   </component>
 </project>

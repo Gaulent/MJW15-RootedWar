@@ -189,6 +189,7 @@ MonoBehaviour:
   destiny: {fileID: 0}
   origin: {fileID: 0}
   pullonPrefab: {fileID: 1507930274618074489, guid: 2f196a8a22810ab44a1420028bc0385a, type: 3}
+  dustEffectPrefab: {fileID: 3847183469520172561, guid: da586cb3b6b73aa4b84e84cbf5ca7dca, type: 3}
 --- !u!96 &-2700559261935980182
 TrailRenderer:
   serializedVersion: 2

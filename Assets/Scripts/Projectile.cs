@@ -15,6 +15,7 @@ public class Projectile : MonoBehaviour
     public GameObject destiny;
     public GameObject origin;
     public GameObject pullonPrefab;
+    public GameObject dustEffectPrefab;
     
     // Start is called before the first frame update
     void Start()
@@ -40,6 +41,7 @@ public class Projectile : MonoBehaviour
             _newPullon.GetComponent<Pullon>().SetDestiny(origin);
             _newPullon.GetComponent<Pullon>().SetOrigin(destiny);
             //Invoke(nameof(delayedDeletion), 0.3f);
+            Instantiate(dustEffectPrefab, transform.position, quaternion.identity);
             Destroy(gameObject);
         }
     }
